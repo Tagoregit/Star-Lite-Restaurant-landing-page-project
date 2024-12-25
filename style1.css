@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: maroon;
+}
+header{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
+    position: sticky;
+}
+/* h6,h1,p{
+    text-align: center; */
+
+img{
+    width: 20%;
+    height: 10%;
+
+}
+main{
+    text-align: center;
+    height: 100vh;
+}
+

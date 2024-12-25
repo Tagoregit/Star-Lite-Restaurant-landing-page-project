@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>star lite</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <span class="span1">
+            <img src="./sl.jpeg" alt="" class="image">
+            <h2 class="mll" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">Other</h2>
+            <nav><i class="fa-solid fa-chevron-down"  data-bs-toggle="offcanvas" data-bs-target="#offcanvas"></i></nav>
+           <nav> <ion-icon name="menu-outline" class="ion1"></ion-icon></nav>
+            <nav class="home">Home</nav>
+            <nav class="home" id="au">About us</nav>
+            <nav class="home">Contact</nav>
+            <nav class="nav1"> 
+                <nav class="hjk" data-bs-toggle="modal" data-bs-target="#modallogin"><i class="fa-regular fa-user"></i></nav>
+                <nav data-bs-toggle="modal" data-bs-target="#modallogin" class="home">Login</nav>
+            </nav>
+                <nav class="nav2">
+                    <nav><ion-icon name="cart-outline" class="ion1"></ion-icon></nav>
+                    <nav class="home">Cart</nav>
+                </nav>
+            <nav class="nav3">
+                <nav><img src="./offer-svgrepo-com.svg"alt="" class="ree" data-bs-toggle="modal" data-bs-target="#modalid"></nav>
+                <nav class="home" data-bs-toggle="modal" data-bs-target="#modalid">offer</nav>
+               <nav>
+                <input type="text" name="search" placeholder="search" class="home" id="se">
+                <img src="./search_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="" id="mkl"></nav>
+            </nav>
+        </span>
+        <div class="modal" id="modallogin">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <img src="./sl.jpeg"  alt="sl" class="w-50 d-block mx-auto">
+                <h3 class="text-center mt-2">Welcome To Star-Lite</h3>
+                <div class="modal-header">
+                  <h5 class="modal-title">Please Login  To Continue</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form action="">
+                    <div class="text-warning">
+                       <label for="user">Username or Email</label>
+                       <input type="text" id="user"name="name" class="form-control">
+                       <div class="text-warning">
+                        <label for="pw">Password</label>
+                        <input type="text" id="pw"name="name" class="form-control">
+                     </div>
+                     <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input h-20px" id="rememberMe">
+                        <label class="form-check-label" for="rememberMe">Remember me</label>
+                      </div>
+                </form>
+                    <button type="submit" class="btn btn-warning text-white">Sign In</button>
+                  
+                    <div class="text-center mt-4">
+                      <p>or sign in with</p>
+                      <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&amp;pli=1" target="_blank">
+                      <button class="btn btn-outline-danger bg-danger text-white">Google</button></a>
+                     <a href="https://www.facebook.com/" target="_blank"> 
+                     <button class="btn btn-outline-primary bg-primary text-white">Facebook</button></a>
+                      <a href="https://account.microsoft.com/account/manage-my-account" target="_blank">
+                     <button class="btn btn-outline-info bg-info text-white">Microsoft</button></a>
+                      <button class="btn btn-outline-dark bg-dark text-white">E-Mail</button>
+                    </div>
+                  </div>
+                </div>
+          </div>
+                    
+</header>
+    <h2 class="hh5">What's on your mind?</h2>
+    <div class="main1">
+        <div> 
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Dosa.png" alt="tiffen">
+        </div>
+        <div>
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Biryani.png" alt="">
+        </div>
+        <div>
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Pizzas.png" alt="">
+        </div>
+        <div>
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_burger.png" alt="">
+        </div>
+        <div>
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png" alt="">
+        </div>
+        <div>
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Chinese.png" alt="">
+        </div>
+        <div>
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Pure%20Veg.png" alt="">
+        </div>
+        <div>
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_North%20Indian.png" alt="">
+        </div>
+        <div>
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Salad-1.png" alt="">
+        </div>
+        <div>
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_cake.png" alt="">
+        </div>
+        <div>
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Shake.png" alt="">
+        </div>
+    </div>
+    <hr>
+    <main>
+        <h2 class="hh5">Restaurants with online food delivery</h2>
+       <div class="main2">
+        <p class="z">Filte</p>
+        <p class="z">Sort By</p>
+        <p class="z">Fast deilvery</p>
+        <p class="z">New on StarLite</p>
+        <p class="z">Rating 4.0+</p>
+        <p class="z">offer</p>
+        <p class="z">Previously order</p>
+        <p class="z">Cuisines</p>
+        <p class="z">RS. 300-Rs.600</p>
+        <p class="z">Less than Rs.300</p>
+       </div>
+    </main>
+    <div class="main3">
+        <h1> Tiffin </h1>
+        <p id="p1">A delicious, fried breakfast staple that will remind you of home.</p>
+        <div class="cd10">
+            <div class="ds">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/xxg1pthsrrxpd83in6r3" alt="" class="ir">
+                <div>
+                    <h6 class="c">Idli</h6>
+                    <h5>  &#x20B9;80</h5>
+                    <button>Add to Cart</button>
+                </div>
+                
+            </div>
+            <div class="ds">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/4/10/8c3702e9-6db8-43ca-9dc8-254ab8532d52_f9d28c99-c19c-464a-a43a-f8e60f707566.jpeg" alt="" class="ir">
+                <div><h6 class="c">Dosa</h6>
+                    <h5>  &#x20B9;100</h5>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="ds">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/9/05df414a-25df-492b-8fba-7df7c0bbda37_2bbebc1f-5531-4e04-b6d4-2fa25183a47c.jpg" alt="" class="ir">
+                <div><h6 class="c">Poori</h6>
+                    <h5>  &#x20B9;90</h5>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="ds">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/9/79f27343-d912-477e-b8f8-812140f26acd_ffcbf809-ded6-48c9-8cfd-376447371ada.jpg" alt="" class="ir">
+                <div> <h6 class="c">Vada</h6>
+                    <h5>  &#x20B9;90</h5>
+                    <button>Add to Cart</button>
+                </div>  
+            </div>
+        </div>
+        <h1>Biryani</h1>
+        <p id="p1">Taste these delectable classics, delectable biryanis to make your day.</p>
+        <div class="cd1">
+            <div class="di">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jsv4qlq9g4ktvvbjebd7" alt="" class="im">
+                <h6>Chicken Mandi</h6>
+                <h5 class="b">  &#x20B9;400</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="di">
+                <img src="https://th.bing.com/th/id/OIP.JbBpts8DpTwg1253grV3YAHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" class="im">
+                <h6>Chicken dum biryani</h6>
+                <h5 class="b">  &#x20B9;160</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="di">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/516a1fa5421b96c9d55814f81e2e56f9" alt="paneer" class="im">
+                <h6>paneer biryani</h6>
+                <h5 class="b">  &#x20B9;200</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="di">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/jwxfhwnwdkwb5binfukr" alt="" class="im">
+                <h6>Donne Biryani</h6>
+                <h5 class="b">  &#x20B9;250</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="di">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/bjhqilfsbr3xtk1hppft" alt="mashroom" class="im">
+                <h6>Mushroom Biryani</h6>
+                <h5 class="b">  &#x20B9;320</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="di">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/cdtyabcb7vupvw2q5kuo" alt="" class="im">
+                <h6>Mutton Biryani</h6>
+                <h5 class="b">  &#x20B9;280</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="di">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/ksxr6nnjtzrujpidl6lm" alt="" class="im">
+                <h6>Fish Biryani</h6>
+                <h5 class="b">  &#x20B9;300</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="di">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/djaghnoophb4zpup66rh" alt="" class="im">
+                <h6>Prawns Biryani</h6>
+                <h5 class="b">  &#x20B9;320</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="di">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/1c2f9ba8b20d1fefa5eab2c53de93488" alt="nalli" class="im">
+                <h6>Nalli Gosht Biryani</h6>
+                <h5 class="b">  &#x20B9;400</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="di">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/9347f1da6ae1ea24415972e9175bfc49" class="im"alt="">
+                <h6>Mutton Handi Biryani</h6>
+                <h5 class="b">  &#x20B9;500</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="di">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/cxfiwgsvhpcovsn4b9kd" alt="" class="im">
+                <h6>Veg Biryani</h6>
+                <h5 class="b">  &#x20B9;140</h5>
+                <button>Add to Cart</button>
+
+            </div>
+            <div class="di">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/4/1/c846e075-0eae-4a6f-8912-a65737116972_b530162c-29f6-4e74-af0d-84ba59f43f0a.jpg" alt="" class="im">
+                <h6>EGG Biryani</h6>
+                <h5 class="b">  &#x20B9;120</h5>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <h1>Pizza</h1>
+        <p id="p1">Cheesilicious pizzas to make every day extraordinary.</p>
+        <div class="cd2">
+            
+            <div class="da">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/2f2a8e30d98db46c6507105f68151cf9" alt="" class="ig">
+                <h6 class="h">Chicken Tikka Delight Pizza</h6>
+                <h5 class="pizza">  &#x20B9;200</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="da">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/7c574bdc2cda3caf226ff04e40af0a90" alt="" class="ig">
+                <h6 class="h">Bbq Chicken Pizza</h6>
+                <h5 class="pizza">  &#x20B9;290</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="da">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/8ae7e1886b2837eb112c9600400ca3e6" alt="" class="ig">
+                <h6 class="h">Chicken Pepperoni Pizza</h6>
+                <h5 class="pizza">  &#x20B9;220</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="da">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/6/0510994b-6dee-4505-8024-93f97f174abe_9134c637-1026-4add-9331-52e51333f938.jpg" alt="" class="ig">
+                <h6 class="h">Bacon & Prawn</h6>
+                <h5 class="pizza">  &#x20B9;220</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="da">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/512d59fd11380ed1b181c3c8b983e230" alt="" class="ig">
+                <h6 class="h">Corn & Cheese Pizza</h6>
+                <h5 class="pizza">  &#x20B9;120</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="da">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/fec8048898f6bfedab402b417a46288c" alt="" class="ig">
+                <h6 class="h">Peppy Paneer Tikka Pizza</h6>
+                <h5 class="pizza">  &#x20B9;250</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="da">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/9/5/55a77c68-7d2c-4561-9d47-d72ba8defde8_917f4ea2-7b0d-4b0a-971c-628683e88626.jpg" alt="" class="ig">
+                <h6 class="h">Momo Mia! Pizza Veg</h6>
+                <h5 class="pizza">  &#x20B9;220</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="da">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/z0c4xpovma1qtmu4tlls" alt="" class="ig">
+                <h6 class="h">Veggie Supreme</h6>
+                <h5 class="pizza">  &#x20B9;140</h5>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <h1>Burger</h1>
+        <p id="p1">Satisfy your cravings with these fresh and flavoursome burgers.</p>
+        <div class="cd3">
+            <div class="de">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/9/18/70eb5956-3666-47f4-bcf8-1f5075207222_fd9e2a06-3f27-47e3-88aa-86895ffaa65e.png" alt="" class="ie">
+                <h6 class="j">McSpicy Paneer Burger </h6>
+                <h5 class="b">  &#x20B9;230</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="de">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/19/d4387d28-73ab-45b7-b424-61588863d158_9477217d-7c7a-4834-919a-b9ae7d7cf950.jpg" alt="" class="ie">
+                <h6 class="j">Crispy Veg Burger</h6>
+                <h5 class="b">  &#x20B9;150</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="de">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/6d8c645fcd7d5368741ccc61933fafed" alt="" class="ie">
+                <h6 class="j">Veg Zinger Burger with Cheese</h6>
+                <h5 class="b">  &#x20B9;180</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="de">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/866ef0fcc37944827cf419f6d9783d97" alt="" class="ie">
+                <h6 class="j">Veg Longer Burger</h6>
+                <h5 class="b">  &#x20B9;170</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="de">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/4/13/c399fbf4-8312-48c0-b661-fa2e052845cf_c96b26a6-55c6-43ff-8231-03e6c10cc4b6.jpg" alt="" class="ie">
+                <h6 class="j">Spicy Zinger Burger</h6>
+                <h5 class="b">  &#x20B9;220</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="de">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/19/03972ff7-ca47-4b34-a777-bec55c47869e_8944b667-7b9c-418b-88f3-df885ddadd6b.jpg" alt="" class="ie">
+                <h6 class="j">Crispy Chicken Burger</h6>
+                <h5 class="b">  &#x20B9;209</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="de">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/232c7e1b2b74dfc2851556a255e148a2" alt="" class="ie">
+                <h6 class="j">BK Chicken Burger.</h6>
+                <h5 class="b">  &#x20B9;150</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="de">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/7/4/f1d9557a-6f86-4eb2-abd5-569f2e865de2_9b71c67a-45f1-41c1-9e1c-b80a934768da.png" alt="" class="ie">
+                <h6 class="j">McChicken Burger</h6>
+                <h5 class="b">  &#x20B9;180</h5>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <h1>Shawarma</h1>
+        <p id="p1">Order in deliciously juicy and grilled Shawarmas to curb your cravings!</p>
+        <div class="cd4">
+             <div class="df">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/117e37911d23ac871c56cd2047016a8f" alt="" class="if">
+                <h6 class="d">Chicken Shawarma</h6>
+                <h5>  &#x20B9;150</h5>
+                <button>Add to Cart</button>
+             </div>
+             <div class="df">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/juoa3ini9y1rqm7dd7jy" alt="" class="if">
+                  <h6 class="d">Barbeque Shawarma</h6>
+                  <h5>  &#x20B9;180</h5>
+                <button>Add to Cart</button>
+             </div>
+             <div class="df">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/hrckb0zzuvtqrlma1mcm" alt="" class="if">
+                <h6 class="d">Rumali Shawarma </h6>
+                <h5>  &#x20B9;160</h5>
+                <button>Add to Cart</button>
+             </div>
+             <div class="df">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/422bd0d5c7bdae96bac253c949dd9c6c" alt="" class="if">
+                <h6 class="d">Somali Sawarma</h6>
+                <h5>  &#x20B9;200</h5>
+                <button>Add to Cart</button>
+             </div>
+             <div class="df">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/45975a4fd87745b66dc345c4f03d3857" alt="" class="if">
+                <h6 class="d">Panner Sawarma</h6>
+                <h5>  &#x20B9;218</h5>
+                <button>Add to Cart</button>
+             </div>
+             <div class="df">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/386a0faa42545b9c4dd2e867385e52da" alt="" class="if">
+                <h6 class="d">Veg Shawarma</h6>
+                <h5>  &#x20B9;140</h5>
+                <button>Add to Cart</button>
+             </div>
+        </div>
+        <h1>Chinese</h1>
+        <p id="p1">Transport your taste buds to the heart of Chinese cuisine with these scrumptious dishes.</p>
+        <div class="cd5">
+            <div class="dg">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/a637b8c85bb61fa14d0591b7442273a0" alt="" class="io">
+            <h6 class="w">Chicken Noodles</h6>
+            <h5 class="chinese">  &#x20B9;110</h5>
+            <button>Add to Cart</button>
+            </div>
+            <div class="dg">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/2d39244ba76418ab5abc2c12f8a647dc" alt="" class="io">
+            <h6 class="w">Egg Noodles</h6>
+            <h5 class="chinese">  &#x20B9;110</h5>
+            <button>Add to Cart</button>
+            </div>
+            <div class="dg"> <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/f1739fbd89609f1864fd5007369c9b6e" alt="" class="io">
+                <h6 class="w">Chicken Manchurian</h6>
+                <h5 class="chinese">  &#x20B9;140</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="dg">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/b9368ae8681c02ab0c754b999254caf4" alt="" class="io">
+                <h6 class="w">Paneer Manchurian</h6>
+                <h5 class="chinese">  &#x20B9;140</h5>
+                <button>Add to Cart</button>
+            </div>
+            <div class="dg">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/8/23/5d815bb5-5ba1-47fa-81e9-bd248087bac8_d97b3102-9764-49e8-80ce-f41bf7208ba4.JPG" alt="" class="io">
+                <h6 class="w">Veg. Fried Rice</h6>
+                <h5 class="chinese">  &#x20B9;.90</h5>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <h1>South & North Indian</h1>
+        <p id="p1">Explore hot & spicy dishes that are a specialty of South & North India.</p>
+        <div class="cd6">
+           <div class="dj">
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/16/1fb7f668-d5f8-4c44-9fb8-9565688fde5c_b1f60a5f-667c-4103-a299-fb9d2fe9cf72.jpg" alt="" class="ib">
+            <h6 class="q">Telangana Chicken Curry</h6>
+            <h5 class="sn">  &#x20B9;190</h5>
+            <button>Add to Cart</button>
+           </div>
+           <div class="dj">
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/nil5zds63lbhu48qrrya" alt="" class="ib">
+            <h6 class="q">Mutton Masala</h6>
+            <h5 class="sn">  &#x20B9;250</h5>
+            <button>Add to Cart</button>
+           </div>
+           <div class="dj">
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/8/19/b0345923-b4a2-4292-aa1e-238786dcb84a_0e025d30-35cc-40f5-ad59-15af24ae2cf7.JPG" alt="" class="ib">
+            <h6 class="q">Chicken Curry</h6>
+            <h5 class="sn">  &#x20B9;220</h5>
+            <button>Add to Cart</button>
+           </div>
+           <div class="dj">
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/uoxbz0wy70vxxq33okmm" alt="" class="ib">
+            <h6 class="q">Egg Curry</h6>
+            <h5 class="sn">  &#x20B9;120</h5>
+            <button>Add to Cart</button>
+           </div>
+           <div class="dj">
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/16/75a1fe76-54b4-4f5b-ab02-85b3eafd73d3_7dd4c63d-6b90-470f-9792-5a2b999bebb0.jpg" alt="" class="ib">
+            <h6 class="q">Paneer Butter Masala</h6>
+            <h5 class="sn">  &#x20B9;200</h5>
+            <button>Add to Cart</button>
+           </div>
+           <div class="dj">
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/16/cc210349-86e1-4991-8969-7b1b39d39332_ef95f47a-4983-49eb-8ce9-e2182c252bd1.jpg" alt="" class="ib">
+            <h6 class="q">Methi Chaman</h6>
+            <h5 class="sn">  &#x20B9;130</h5>
+            <button>Add to Cart</button>
+           </div>
+           <div class="dj">
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/qnbtevx3owuzox1rlsvq" alt="" class="ib">
+            <h6 class="q">Kaju Paneer</h6>
+            <h5 class="sn">  &#x20B9;.220</h5>
+            <button>Add to Cart</button>
+           </div>
+           <div class="dj"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/bu0jira1mbby90gmfxfi" alt="" class="ib">
+            <h6 class="q">Kadhai Paneer</h6>
+            <h5 class="sn">  &#x20B9;220</h5>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+        <h1>Shakes</h1>
+        <p id="p1">Tempt your taste buds with cold and thick milkshakes.</p>
+        <div class="cd9">
+            <div class="dn">
+              <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/jv1bfbsyxzvovwk7ykyq" alt="" class="iy">
+              <h6 class="t">Cold Dark Frappe</h6>
+              <h5 class="sh">  &#x20B9;110</h5>
+              <button>Add to Cart</button>
+            </div>
+            <div class="dn">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/m8svt7wly9xv3cchz1jg" alt="" class="iy">
+                <h6 class="t">Cold Devils Own</h6>
+                <h5 class="sh">  &#x20B9;70</h5>
+              <button>Add to Cart</button>
+            </div>
+            <div class="dn">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/e5yezbmscyzjevyhg3ox" alt="" class="iy">
+                <h6 class="t">Tropical Ice Berg</h6>
+                <h5 class="sh">  &#x20B9;120</h5>
+              <button>Add to Cart</button>
+            </div>
+            <div class="dn">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/3a7b65895369e3d57e91d8a7126c7c11" alt="" class="iy">
+                <h6 class="t">Crunchy Frappe</h6>
+                <h5 class="sh">  &#x20B9;100</h5>
+              <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="main4">
+        <div class="table1">
+            <h4 id="qwe">Reservation</h4>
+            <h5 id="fs">Reservation your Favorite</h5>
+            <h5 id="fs">Private table</h5>
+            <p id="nmc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, tempore. Obcaecati, repellat accusamus! Accusamus facere ea odio nobis deleniti autem, veritatis reiciendis a expedita iste omnis earum aut iusto quia.</p>
+            <input type="text" name="name" placeholder="name" required class="input1">
+            <input type="tel" name="phone" placeholder="phone" required class="input1">
+            <input type="email" name="email" placeholder="email" required class="input1">
+            <input type="date" name="trip-start" placeholder="date" required class="input1">
+            <input type="number" name="tentacles" placeholder="person" min="0" max="100" class="input1">
+            <input type="time" name="time" placeholder="Time: 12:30pm" required class="input1">
+            <div class="ff"><h2 class="rs">Book a table</h2></div>
+        </div>
+        <div class="imgtable">
+            <div class="nnc">
+                <img src="./table3.jpg" alt="" class="nnc1">
+            </div>
+            <div class="nnc">
+                <img src="./table2.jpeg" alt="" class="we">
+            </div>
+        </div>
+        <div class="vs">
+            <h2 class="rrr">Launch Menu</h2>
+            <h5 class="dsf">400+items</h5>
+        </div>
+        <div class="vs">
+            <h2 class="rrr">Dinner Menu</h2>
+            <h5 class="dsf">500+items</h5>
+        </div>
+        <div class="vs1">
+            <div class="ms">
+                <ion-icon name="call-outline" class="ion"></ion-icon>
+            </div>  
+            <div id="two">
+                <h5 class="rrr1">You can also call</h5>
+                <h2 class="dsf1">+678392655</h>
+            </div>
+        </div>
+    </div>
+    <div class="ddd1">
+        <h2 class="qqq">Our Strength</h2>
+        <h3 class="qq1">Why We Are The Best</h3>
+    </div>
+    <div class="main5">
+        
+        <div class="cd11">      
+        <div class="ddd2">
+            <img src="./food.jpeg" alt="" class="iee">
+            <h6 class="gyy">Quality Foods</h6>
+            <p class="pp1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis architecto ex delectus modi saepe ut obcaecati id</p>
+        </div>
+      
+        <div class="ddd3">
+            <img src="./food order.jpeg" alt="" class="iee">
+            <h6 class="gyy">Easy To Order</h6>
+            <p class="pp1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis architecto ex delectus modi saepe ut obcaecati id cupiditate vero sunt ad, non voluptatem vel in consectetur recusandae fugiat libero dolor?</p>
+        </div>
+       
+        <div class="ddd4">
+            <img src="./food delivry.jpg" alt="" class="iee">
+            <h6 class="gyy">One Time Delivery</h6>
+            <p class="pp1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis architecto ex delectus modi saepe ut obcaecati id cupiditate vero sunt ad, non voluptatem vel in consectetur recusandae fugiat libero dolor?</p>
+        </div>
+        </div>
+    </div>
+    <div class="edf">
+        <h2 class="qqq">Master chefs</h2>
+    <h3 class="qq1">Our Special Chefs</h3>
+    </div>
+    <dvi class="main6">
+        <div class="eee">
+            <img src="./chef4.jpeg" alt="" class="wee">
+            <h3 class="eww">Thomas Keller</h3>
+            <h6 class="gyy">Head chef</h6>
+            <p class="pp1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis architecto ex delectus modi saepe ut obcaecati id cupiditate vero sunt ad, non voluptatem vel in consectetur recusandae fugiat libero dolor?</p>
+        </div>
+        <div class="eee">
+            <img src="./chef3.jpeg" alt="" class="wee">
+            <h3 class="eww">Elena Arzak</h3>
+            <h6 class="gyy">senior chef</h6>
+            <p class="pp1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis architecto ex delectus modi saepe ut obcaecati id cupiditate vero sunt ad, non voluptatem vel in consectetur recusandae fugiat libero dolor?</p>
+        </div>
+        <div class="eee">
+            <img src="./chef5.jpeg" alt="" class="wee">
+            <h3 class="eww"> Jamie Oliver</h3>
+            <h6 class="gyy">Pantry chef</h6>
+            <p class="pp1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis architecto ex delectus modi saepe ut obcaecati id cupiditate vero sunt ad, non voluptatem vel in consectetur recusandae fugiat libero dolor?</p>
+        </div>
+        <div class="eee">
+            <img src="./chef6.jpeg" alt="" class="wee">
+            <h3 class="eww">Nadia Santini</h3>
+            <h6 class="gyy">Sous chef</h6>
+            <p class="pp1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis architecto ex delectus modi saepe ut obcaecati id cupiditate vero sunt ad, non voluptatem vel in consectetur recusandae fugiat libero dolor?</p>
+        </div>
+    </dvi>
+    <div class="main7">
+        <div class="fff">
+            <img src="./food2.jpeg" alt=""class="gff">
+            <img src="./chef1.jpeg" alt="" class="none">
+            <img src="./table.jpeg" alt="" class="ns">
+            <img src="./chef2.jpeg" alt="" class="gt">
+        </div>
+        <div class="fff1">
+            <h2 class="gyy">Opening Hours</h2>
+            <p class="gii">TIME</p>
+            <p class="gii">5.00am-11.30pm</p>
+            <div id="one"><ion-icon name="call-outline" class="ion"></ion-icon></div>
+            <p class="rrr2">Call Anytime</p>
+            <p class="dsf2">+678392655</p>
+            <p id="four" style="color:orangered">come and taste a quality food like home made of different items of food</p>
+            <p id="four" style="font-size: 20px; font-family: cursive; color:darkorange">Always Welcome</p>
+
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="dvv">
+            <img src="./sl.jpeg" alt="" id="sl">
+            <h1 class="hh">STAR-LITE</h1>
+            <p class="ipl">freshly made from restaurant feel like home made food </p>
+            <h2>follow us</h2>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-linkedin"></ion-icon>
+            <ion-icon name="logo-tiktok"></ion-icon>
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-youtube"></ion-icon>
+        </div>
+        <div class="dff">
+            <dl>
+                <dt><b>About Us</b></dt>
+                <dd>Career</dd>
+                <dd>Feature</dd>
+                <dd>New food& Blogs</dd>
+                <dd>Terms</dd>
+                <dd>Feedback</dd>
+            </dl>
+        </div>
+        <div class="ddd">
+            <dl>
+                <dt><b>Contact us</b></dt>
+                <dd>Help & Support</dd>
+                <dd>PARTNER WITH US</dd>
+                <dd>What's app:+254842220</dd>
+                <dd>phone no:+678392655</dd>
+                <dd>phone no:+56789032</dd>
+                <dd>phone no:+5678903</dd>
+                <dd>phone no:+54678790</dd>
+                <dd>phone no:+8904673</dd>
+                <dd>email:starelitefood@gmail.com</dd>
+                <dd>our restaurant is locater at in all over India</dd>
+            </dl>
+        </div>
+        <div class="dgg">
+            <dl>
+                <dt><b>Available in:</b></dt>
+                <dd>Bangalore</dd>
+                <dd>Gurgaon</dd>
+                <dd>Hyderabad</dd>
+                <dd>Delhi</dd>
+                <dd>Mumbai</dd>
+                <dd>Pune</dd>
+                <dd>Kolkata</dd>
+                <dd>Chennai</dd>
+                <dd>Lucknow</dd>
+                <dd>Tirupur</dd>
+            </dl>
+
+        </div>
+        <div class="gee">
+            <b>NewSletter</b>
+            <p>jion our subscriber list to get latest news and special offer</p>
+            <p>every special offer on firday</p>
+            <p>taste the food like foodie once you vist our restaurant never live from her</p>
+            <p>food made like a home food</p>
+        </div>
+        
+    </footer>
+    <div class="modal" id="modalid">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title">Best Offers For You</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="bg-primary">
+                    <h5 class="text-danger-center">MIN &#8377;.100 OFF</h5>
+                    <p class="text-danger">Flat Deals</p>
+                </div>
+                <div class="bg-warning">
+                    <h5 class="text-info-center">40% OFF</h5>
+                    <p class="text-info">on your favorite dish</p>
+                </div>
+                <div class="bg-info">  
+                    <h5 class="text-success-center">POCKET HERO</h5>
+                    <p class="text-success">free delivary</p>
+                </div>
+                <div class="bg-secondary">
+                    <h5 class="text-warning-center">ALL OFFERS</h5>
+                    <p class="text-warning">60% off and more</p>
+                </div>
+            </div>
+           
+          </div>
+        </div>
+    </div> 
+    <div class="offcanvas offcanvas-start show" id="offcanvas">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title">Location</h5>
+          <button class="btn btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p class="text-danger">add adrdress will help our delivery partner reach your doorstep</p>
+            <p class="texr-success">address can help us to find you easily food delivery</p>
+            <form action="">
+                <div> <input type="text" name="name" placeholder="Flat/house/floor/block no."></div>
+            <div> <input type="text" name="name" placeholder="aprtment/road/area"></div>
+            <div> <input type="text" name="search" placeholder="gps"></div>
+            </form>
+            
+         <button class="btn btn-warning">SAVE</button>
+        </div>
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
